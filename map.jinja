@@ -1,4 +1,4 @@
-{% set mariadb = salt['grains.filter_by']({
+{% set mariaconf = salt['grains.filter_by']({
     'Debian': {
         'conf': '/etc/mysql/my.cnf',
     },
